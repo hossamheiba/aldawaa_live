@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 11:23+0300\n"
+"POT-Creation-Date: 2024-12-10 11:46+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -361,7 +361,7 @@ msgstr "اتصل بنا"
 
 #: .\Contact_Us\templates\contact_us.html:89
 msgid "CONTACT US"
-msgstr ""
+msgstr "تواصل معنا"
 
 #: .\Contact_Us\templates\contact_us.html:92
 msgid "Your Name"
@@ -378,6 +378,10 @@ msgstr "رقم الجوال"
 #: .\Contact_Us\templates\contact_us.html:104
 msgid "Type Message..."
 msgstr "رسالة..."
+
+#: .\Contact_Us\templates\contact_us.html:108
+msgid "SEND"
+msgstr "ارسال"
 
 #: .\Contact_Us\views.py:19
 msgid "Your message has been sent successfully!"
