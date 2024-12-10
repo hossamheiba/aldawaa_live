@@ -2,14 +2,20 @@
 import os
 from pathlib import Path
 from decouple import config
-# import dj_database_url
+import dj_database_url
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 SECRET_KEY='django-insecure-rx8&obvzf#ha__=@6huq9^m^968!2qg%%5=vp52gk70z3^m#c0'
-ALLOWED_HOSTS=[]
+ALLOWED_HOSTS=['aldawaa-dmsco.onrender.com']
 DEBUG=True
+
+
+
+DATABASES = {
+    'default': dj_database_url.config(default='postgresql://aldawaa_user:V2waUZWF519yPbla7ppVr6cNlLDoNngK@dpg-ctbo2vdumphs73fl54b0-a.oregon-postgres.render.com/aldawaa')
+}
 
 # DATABASES = {
 #     'default': dj_database_url.config(default=config('DB_URL'))
@@ -80,12 +86,12 @@ WSGI_APPLICATION = 'project.wsgi.application'
 
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 
 # Password validation
