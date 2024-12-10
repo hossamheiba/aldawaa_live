@@ -39,7 +39,7 @@
                         <h3 class="box-title">{{ card.card_title }}</h3>
                         <p class="box-text">{{ card.card_description }}</p>
                         {% if card.social_responsibility_details.slug %}
-                            <a href="{% url 'Al-Dawaa:social_responsibility_details' card.social_responsibility_details.slug %}" class="th-btn btn-sm mt-4">Read More</a>
+                            <a href="{% url 'Al-Dawaa:social_responsibility_details' card.social_responsibility_details.slug %}" class="th-btn btn-sm mt-4">{% trans "Read More" %}</a>
                         {% endif %}
                     </div>
                 </div>

@@ -36,7 +36,7 @@
                             </div>
                             <p class="box-text" style="color: {{ department.department_text_color }};">{{ department.department_description }}</p>
                             {% if department.department.slug %}
-                                <a href="{% url 'Al-Dawaa:department_detail' department.department.slug %}" class="th-btn btn-sm mt-4">Read More</a>
+                                <a href="{% url 'Al-Dawaa:department_detail' department.department.slug %}" class="th-btn btn-sm mt-4">{% trans "Read More" %}</a>
                             {% endif %}
                         </div>
                     </div>

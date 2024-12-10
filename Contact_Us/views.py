@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from .models import ContactInfo, ContactFormSubmission , Image_Banner
 from django.contrib import messages
+from django.utils.translation import gettext as _
 
 
 def contact_us(request):
@@ -15,7 +16,7 @@ def contact_us(request):
         
         ContactFormSubmission.objects.create(name=name, email=email, phone=phone, message=message)
         
-        messages.success(request, "Your message has been sent successfully!")
+        messages.success(request, _("Your message has been sent successfully!"))
         
         return redirect('/Contact_Us')
     return render(request, 'contact_us.html', {

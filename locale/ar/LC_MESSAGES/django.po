@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-18 13:02+0300\n"
+"POT-Creation-Date: 2024-12-10 11:23+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: .\Al_Dawaa\models.py:11 .\Al_Dawaa\models.py:122 .\Al_Dawaa\models.py:149
 #: .\Al_Dawaa\models.py:195 .\Contact_Us\models.py:8 .\Dmsco\models.py:8
@@ -95,8 +96,8 @@ msgid ""
 "<a href=\"https://www.flaticon.com/\" target=\"_blank\">Flaticon</a>."
 msgstr ""
 "لاختيار أيقونات بأحجام معينة، يرجى زيارة هذا الموقع. للحصول على الأيقونات، "
-"تفضل بزيارة <a href=\"https://www.flaticon.com/\" "
-"target=\"_blank\">Flaticon</a>."
+"تفضل بزيارة <a href=\"https://www.flaticon.com/\" target=\"_blank"
+"\">Flaticon</a>."
 
 #: .\Al_Dawaa\models.py:101
 msgid "Department Description"
@@ -193,8 +194,8 @@ msgstr "برامجنا"
 #: .\Al_Dawaa\models.py:233 .\Al_Dawaa\models.py:281
 #: .\Al_Dawaa\templates\our_program.html:5
 #: .\Al_Dawaa\templates\our_program.html:14 .\Home\templates\home.html:130
-#: .\Home\templates\home.html:219 .\templates\base.html:112
-#: .\templates\base.html:200 .\templates\base.html:331
+#: .\Home\templates\home.html:219 .\templates\base.html:111
+#: .\templates\base.html:199 .\templates\base.html:332
 msgid "Our Programs"
 msgstr "برامجنا"
 
@@ -221,8 +222,8 @@ msgstr "الحد الأقصى 1000 حرف"
 #: .\Al_Dawaa\templates\Al_Dawaa_Departments.html:9
 #: .\Al_Dawaa\templates\Al_Dawaa_Departments.html:13
 #: .\Home\templates\home.html:124 .\Home\templates\home.html:213
-#: .\templates\base.html:106 .\templates\base.html:194
-#: .\templates\base.html:325
+#: .\templates\base.html:105 .\templates\base.html:193
+#: .\templates\base.html:326
 msgid "Al-Dawaa Departments"
 msgstr "أقسام الدواء"
 
@@ -232,8 +233,7 @@ msgstr "أقسام الدواء"
 #: .\Al_Dawaa\templates\department\department.html:17
 #: .\Al_Dawaa\templates\our_program.html:8
 #: .\Al_Dawaa\templates\we_aldawaa.html:12
-#: .\Contact_Us\templates\contact_us.html:12
-#: .\Dmsco\templates\about_us.html:16
+#: .\Contact_Us\templates\contact_us.html:12 .\Dmsco\templates\about_us.html:16
 #: .\Dmsco\templates\board_of_directors.html:17
 #: .\Dmsco\templates\our_brands.html:12 .\Home\templates\home.html:100
 #: .\Home\templates\home.html:188
@@ -245,8 +245,8 @@ msgstr "أقسام الدواء"
 #: .\News_Media\templates\news_section.html:20
 #: .\Strategic_Partnerships\templates\details\partner_details.html:12
 #: .\Strategic_Partnerships\templates\testimonial.html:12
-#: .\Tenders\templates\tenders_section.html:25 .\templates\base.html:82
-#: .\templates\base.html:169 .\templates\base.html:310
+#: .\Tenders\templates\tenders_section.html:25 .\templates\base.html:81
+#: .\templates\base.html:168 .\templates\base.html:311
 msgid "Home"
 msgstr "الرئيسية"
 
@@ -263,14 +263,21 @@ msgstr "الدواء"
 msgid "AL-DAWAA DEPARTMENTS"
 msgstr "أقسام الدواء"
 
+#: .\Al_Dawaa\templates\Al_Dawaa_Departments.html:39
+#: .\Al_Dawaa\templates\Social_Responsibility.html:42
+#: .\News_Media\templates\media_section.html:59
+#: .\News_Media\templates\news_section.html:62
+msgid "Read More"
+msgstr "اقرأ المزيد"
+
 #: .\Al_Dawaa\templates\Social_Responsibility.html:10
 #: .\Al_Dawaa\templates\Social_Responsibility.html:14
 #: .\Al_Dawaa\templates\Social_Responsibility\Social_Responsibility_details.html:16
 #: .\Al_Dawaa\templates\Social_Responsibility\Social_Responsibility_details.html:21
 #: .\Al_Dawaa\templates\Social_Responsibility\Social_Responsibility_details.html:22
 #: .\Home\templates\home.html:127 .\Home\templates\home.html:216
-#: .\templates\base.html:109 .\templates\base.html:197
-#: .\templates\base.html:328
+#: .\templates\base.html:108 .\templates\base.html:196
+#: .\templates\base.html:329
 msgid "Social Responsibility"
 msgstr "المسؤولية المجتمعية"
 
@@ -283,6 +290,12 @@ msgstr "قسم"
 msgid "Departments"
 msgstr "الأقسام"
 
+#: .\Al_Dawaa\templates\department\department.html:53
+#, fuzzy
+#| msgid "Category Title"
+msgid "Categories"
+msgstr "عنوان الفئة"
+
 #: .\Al_Dawaa\templates\our_program.html:26
 msgid "OUR PROGRAMS"
 msgstr "برامجنا"
@@ -293,7 +306,7 @@ msgid "We Aldawaa"
 msgstr "نحن الدواء"
 
 #: .\Contact_Us\models.py:20 .\Contact_Us\models.py:21
-#: .\Contact_Us\models.py:84 .\Contact_Us\models.py:85
+#: .\Contact_Us\models.py:86 .\Contact_Us\models.py:87
 msgid "Contact Info"
 msgstr "معلومات الاتصال"
 
@@ -309,35 +322,35 @@ msgstr "رقم الهاتف"
 msgid "pragraph link"
 msgstr "رابط االمقالة"
 
-#: .\Contact_Us\models.py:63
+#: .\Contact_Us\models.py:64
 msgid "link pragraph"
 msgstr "رابط المقالة"
 
-#: .\Contact_Us\models.py:70
+#: .\Contact_Us\models.py:71
 msgid "address title"
 msgstr "عنوان العنوان"
 
-#: .\Contact_Us\models.py:77
+#: .\Contact_Us\models.py:79
 msgid "address link"
 msgstr "رابط العنوان"
 
-#: .\Contact_Us\models.py:92
+#: .\Contact_Us\models.py:94
 msgid "name"
 msgstr "الاسم"
 
-#: .\Contact_Us\models.py:93
+#: .\Contact_Us\models.py:95
 msgid "email"
 msgstr "البريد الإلكتروني"
 
-#: .\Contact_Us\models.py:94
+#: .\Contact_Us\models.py:96
 msgid "phone"
 msgstr "الهاتف"
 
-#: .\Contact_Us\models.py:95
+#: .\Contact_Us\models.py:97
 msgid "message"
 msgstr "الرسالة"
 
-#: .\Contact_Us\models.py:99 .\Contact_Us\models.py:100
+#: .\Contact_Us\models.py:101 .\Contact_Us\models.py:102
 msgid "Contact message"
 msgstr "رسالة التواصل"
 
@@ -346,9 +359,29 @@ msgstr "رسالة التواصل"
 msgid "contact_us"
 msgstr "اتصل بنا"
 
+#: .\Contact_Us\templates\contact_us.html:89
+msgid "CONTACT US"
+msgstr ""
+
 #: .\Contact_Us\templates\contact_us.html:92
 msgid "Your Name"
 msgstr "اسمك"
+
+#: .\Contact_Us\templates\contact_us.html:96
+msgid "Email Address"
+msgstr "الايميل"
+
+#: .\Contact_Us\templates\contact_us.html:100
+msgid "Phone Number"
+msgstr "رقم الجوال"
+
+#: .\Contact_Us\templates\contact_us.html:104
+msgid "Type Message..."
+msgstr "رسالة..."
+
+#: .\Contact_Us\views.py:19
+msgid "Your message has been sent successfully!"
+msgstr "تم ارسالة الرسالة بنجاح"
 
 #: .\Dmsco\models.py:14 .\Innovation_Expansion\models.py:54
 #: .\News_Media\models.py:145
@@ -367,8 +400,8 @@ msgstr "سنوات من الخبرة"
 msgid "description"
 msgstr "الوصف"
 
-#: .\Dmsco\models.py:24 .\Dmsco\models.py:25
-#: .\Dmsco\templates\about_us.html:18 .\Dmsco\templates\about_us.html:35
+#: .\Dmsco\models.py:24 .\Dmsco\models.py:25 .\Dmsco\templates\about_us.html:18
+#: .\Dmsco\templates\about_us.html:35
 msgid "About Us"
 msgstr "نبذه عنا"
 
@@ -391,8 +424,8 @@ msgstr "وصف القائمة المنسدلة"
 #: .\Dmsco\models.py:62 .\Dmsco\models.py:63 .\Dmsco\models.py:83
 #: .\Dmsco\models.py:84 .\Dmsco\templates\board_of_directors.html:14
 #: .\Dmsco\templates\board_of_directors.html:23 .\Home\templates\home.html:109
-#: .\Home\templates\home.html:198 .\templates\base.html:91
-#: .\templates\base.html:179 .\templates\base.html:316
+#: .\Home\templates\home.html:198 .\templates\base.html:90
+#: .\templates\base.html:178 .\templates\base.html:317
 msgid "Board Of Directors"
 msgstr " أعضاء مجلس الادارة"
 
@@ -435,8 +468,8 @@ msgstr "نبذة عنا"
 #: .\Dmsco\templates\about_us.html:17
 #: .\Dmsco\templates\board_of_directors.html:20
 #: .\Dmsco\templates\our_brands.html:15 .\Home\templates\home.html:103
-#: .\Home\templates\home.html:192 .\templates\base.html:85
-#: .\templates\base.html:173
+#: .\Home\templates\home.html:192 .\templates\base.html:84
+#: .\templates\base.html:172
 msgid "Dmsco"
 msgstr "دمسكو"
 
@@ -470,25 +503,24 @@ msgstr "لا يوجد أعضاء متاحين"
 
 #: .\Dmsco\templates\our_brands.html:9 .\Dmsco\templates\our_brands.html:18
 #: .\Dmsco\templates\our_brands.html:31 .\Home\templates\home.html:112
-#: .\Home\templates\home.html:201 .\templates\base.html:94
-#: .\templates\base.html:182 .\templates\base.html:319
+#: .\Home\templates\home.html:201 .\templates\base.html:93
+#: .\templates\base.html:181 .\templates\base.html:320
 msgid "Our Brands"
 msgstr "علاماتنا التجارية"
 
 #: .\Home\templates\home.html:106 .\Home\templates\home.html:195
-#: .\templates\base.html:88 .\templates\base.html:176
-#: .\templates\base.html:313
+#: .\templates\base.html:87 .\templates\base.html:175 .\templates\base.html:314
 msgid "About Dmsco"
 msgstr "نبذة عن شركة دمسكو"
 
 #: .\Home\templates\home.html:118 .\Home\templates\home.html:207
-#: .\templates\base.html:100 .\templates\base.html:188
+#: .\templates\base.html:99 .\templates\base.html:187
 msgid "Al-Dawaa"
 msgstr "الدواء"
 
 #: .\Home\templates\home.html:121 .\Home\templates\home.html:210
-#: .\templates\base.html:103 .\templates\base.html:191
-#: .\templates\base.html:322
+#: .\templates\base.html:102 .\templates\base.html:190
+#: .\templates\base.html:323
 msgid "We Al-Dawaa"
 msgstr "نحن الدواء"
 
@@ -497,8 +529,8 @@ msgstr "نحن الدواء"
 #: .\Innovation_Expansion\templates\innovation.html:9
 #: .\Innovation_Expansion\templates\innovation.html:15
 #: .\Innovation_Expansion\templates\innovation\pageinnovation.html:15
-#: .\templates\base.html:117 .\templates\base.html:205
-#: .\templates\base.html:334
+#: .\templates\base.html:116 .\templates\base.html:204
+#: .\templates\base.html:335
 msgid "Innovation & Expansion"
 msgstr "الابتكار والتوسع"
 
@@ -506,63 +538,67 @@ msgstr "الابتكار والتوسع"
 #: .\Strategic_Partnerships\templates\details\partner_details.html:15
 #: .\Strategic_Partnerships\templates\testimonial.html:9
 #: .\Strategic_Partnerships\templates\testimonial.html:15
-#: .\templates\base.html:120 .\templates\base.html:208
-#: .\templates\base.html:346
+#: .\templates\base.html:119 .\templates\base.html:207
+#: .\templates\base.html:347
 msgid "Strategic Partnerships"
 msgstr "الشراكات الاستراتيجية"
 
 #: .\Home\templates\home.html:141 .\Home\templates\home.html:230
 #: .\Tenders\models.py:29 .\Tenders\models.py:30 .\Tenders\models.py:52
 #: .\Tenders\models.py:53 .\Tenders\templates\tenders_section.html:40
-#: .\templates\base.html:123 .\templates\base.html:211
-#: .\templates\base.html:349
+#: .\templates\base.html:122 .\templates\base.html:210
+#: .\templates\base.html:350
 msgid "Tenders"
 msgstr "العطاءات"
 
 #: .\Home\templates\home.html:144 .\Home\templates\home.html:233
 #: .\News_Media\templates\media\media_details.html:15
-#: .\News_Media\templates\news\news_details.html:15 .\templates\base.html:126
-#: .\templates\base.html:214
+#: .\News_Media\templates\news\news_details.html:15 .\templates\base.html:125
+#: .\templates\base.html:213
 msgid "News & Media center"
 msgstr "مركز الأخبار والإعلام"
 
 #: .\Home\templates\home.html:147 .\Home\templates\home.html:236
 #: .\News_Media\models.py:32 .\News_Media\models.py:33
 #: .\News_Media\templates\news_section.html:17
-#: .\News_Media\templates\news_section.html:26 .\templates\base.html:129
-#: .\templates\base.html:217 .\templates\base.html:352
+#: .\News_Media\templates\news_section.html:26 .\templates\base.html:128
+#: .\templates\base.html:216 .\templates\base.html:353
 msgid "news"
 msgstr "الأخبار"
 
 #: .\Home\templates\home.html:150 .\Home\templates\home.html:239
-#: .\News_Media\templates\media_section.html:38 .\templates\base.html:132
-#: .\templates\base.html:220 .\templates\base.html:355
+#: .\News_Media\templates\media_section.html:38 .\templates\base.html:131
+#: .\templates\base.html:219 .\templates\base.html:356
 msgid "Media"
 msgstr "الوسائط"
 
 #: .\Home\templates\home.html:155 .\Home\templates\home.html:244
-#: .\templates\base.html:137 .\templates\base.html:225
-#: .\templates\base.html:358
+#: .\templates\base.html:136 .\templates\base.html:224
+#: .\templates\base.html:359
 msgid "Al-Dawaa Shop"
 msgstr "متجر الدواء"
 
 #: .\Home\templates\home.html:158 .\Home\templates\home.html:247
-#: .\templates\base.html:140 .\templates\base.html:228
-#: .\templates\base.html:361
+#: .\templates\base.html:139 .\templates\base.html:227
+#: .\templates\base.html:362
 msgid "Careers"
 msgstr "الوظائف"
 
 #: .\Home\templates\home.html:161 .\Home\templates\home.html:250
-#: .\templates\base.html:143 .\templates\base.html:231
-#: .\templates\base.html:364
+#: .\templates\base.html:142 .\templates\base.html:230
+#: .\templates\base.html:365
 msgid "IPO"
 msgstr "الطرح العام الأولي"
 
 #: .\Home\templates\home.html:164 .\Home\templates\home.html:253
-#: .\templates\base.html:146 .\templates\base.html:234
-#: .\templates\base.html:367
+#: .\templates\base.html:145 .\templates\base.html:233
+#: .\templates\base.html:368
 msgid "Contact Us"
 msgstr "اتصل بنا"
+
+#: .\Home\templates\home.html:318
+msgid "Follow Us:"
+msgstr "تابعنا:"
 
 #: .\Innovation_Expansion\models.py:10
 msgid "Image Banner innovation"
@@ -590,11 +626,11 @@ msgstr "الابتكار والتوسع"
 
 #: .\Innovation_Expansion\models.py:48
 msgid ""
-"If you add Innovation & Expansion, you must save and continue editing before"
-" typing any entry for it to appear in the drop-down list."
+"If you add Innovation & Expansion, you must save and continue editing before "
+"typing any entry for it to appear in the drop-down list."
 msgstr ""
-"إذا قمت بإضافة الابتكار والتوسع، يجب عليك الحفظ ومواصلة التحرير قبل كتابة أي"
-" إدخال حتى يظهر في القائمة المنسدلة."
+"إذا قمت بإضافة الابتكار والتوسع، يجب عليك الحفظ ومواصلة التحرير قبل كتابة أي "
+"إدخال حتى يظهر في القائمة المنسدلة."
 
 #: .\Innovation_Expansion\models.py:50 .\News_Media\models.py:61
 #: .\News_Media\models.py:138 .\Strategic_Partnerships\models.py:57
@@ -738,13 +774,8 @@ msgstr "الوسائط"
 msgid "News & Media center "
 msgstr "مركز الأخبار والإعلام"
 
-#: .\News_Media\templates\media_section.html:59
-#: .\News_Media\templates\news_section.html:68
-msgid "Read More"
-msgstr "اقرأ المزيد"
-
 #: .\News_Media\templates\media_section.html:61
-#: .\News_Media\templates\news_section.html:71
+#: .\News_Media\templates\news_section.html:65
 msgid "Details coming soon!"
 msgstr "التفاصيل قريبا!"
 
@@ -856,8 +887,8 @@ msgstr "صورة أو أيقونة العطاء"
 
 #: .\Tenders\models.py:61
 msgid ""
-"Here you can choose more than one tender; you must save and continue editing"
-" for it to appear."
+"Here you can choose more than one tender; you must save and continue editing "
+"for it to appear."
 msgstr ""
 "هنا يمكنك اختيار أكثر من عطاء واحد؛ ويجب عليك الحفظ والاستمرار في التحرير "
 "حتى يظهر."
@@ -899,26 +930,26 @@ msgstr ""
 "في شركة دمسكو، منذ أكثر من ربع قرن، نهتم بالرعاية الصحية، ونقدم أعلى مستوى "
 "من الجودة"
 
-#: .\templates\base.html:291
+#: .\templates\base.html:292
 msgid ""
 "Khobar, Kingdom of Saudi Arabia Eastern Cement Towers King Fahd Road, Al "
 "Rawabi"
 msgstr ""
-"الخبر، المملكة العربية السعودية أبراج إسمنت الشرقية طريق الملك فهد، "
-"حي الروابي"
+"الخبر، المملكة العربية السعودية أبراج إسمنت الشرقية طريق الملك فهد، حي "
+"الروابي"
 
-#: .\templates\base.html:306 .\templates\base.html:342
+#: .\templates\base.html:307 .\templates\base.html:343
 msgid "Quick Links"
 msgstr "روابط سريعة"
 
-#: .\templates\base.html:375
+#: .\templates\base.html:376
 msgid "Download our app"
 msgstr "قم بتنزيل تطبيقنا"
 
-#: .\templates\base.html:393
+#: .\templates\base.html:392
 msgid "Developed By"
 msgstr "تم التطوير بواسطة"
 
-#: .\templates\base.html:397
+#: .\templates\base.html:393
 msgid " All Rights Reserved."
 msgstr "جميع الحقوق محفوظة."
