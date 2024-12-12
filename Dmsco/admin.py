@@ -11,11 +11,11 @@ class About_UsInline(TranslationStackedInline):
 class About_UsAdmin(TranslationAdmin):
     # group_fieldsets = True  
     # readonly_fields = ['image_tag'] 
-    # def has_add_permission(self, request):
-    #     return False
+    def has_add_permission(self, request):
+        return False
 
-    # def has_delete_permission(self, request, obj=None):
-    #     return False
+    def has_delete_permission(self, request, obj=None):
+        return False    
     inlines = [About_UsInline]
     list_display = ("Years_Of_Experienced","image_tag")
     list_filter = ('Years_Of_Experienced' ,)
@@ -42,11 +42,11 @@ class BoardMemberAdmin(admin.ModelAdmin):
     inlines = [ImageBannerInline]
     list_display = ("image_tag" ,)
     
-    # def has_add_permission(self, request):
-    #     return False
+    def has_add_permission(self, request):
+        return False
 
-    # def has_delete_permission(self, request, obj=None):
-    #     return False
+    def has_delete_permission(self, request, obj=None):
+        return False    
 
 
     class Media:
@@ -70,11 +70,11 @@ class Image_Banner_BrandAdmin(admin.ModelAdmin):
     inlines = [BannerInline]
     list_display = ("image_tag",)
     
-    # def has_add_permission(self, request):
-    #     return False
+    def has_add_permission(self, request):
+        return False
 
-    # def has_delete_permission(self, request, obj=None):
-    #     return False
+    def has_delete_permission(self, request, obj=None):
+        return False    
     class Media:
         js = (
             'modeltranslation/js/jQuery.js',

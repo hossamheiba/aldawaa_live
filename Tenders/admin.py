@@ -14,11 +14,11 @@ class TenderCategoryInline(TranslationStackedInline):
 class TenderAdmin(admin.ModelAdmin):
     inlines = [TenderCategoryInline , TenderInline]
     list_display = ("image_tag",)
-    # def has_add_permission(self, request):
-    #     return False
+    def has_add_permission(self, request):
+        return False
 
-    # def has_delete_permission(self, request, obj=None):
-    #     return False
+    def has_delete_permission(self, request, obj=None):
+        return False    
     class Media:
         js = (
             'modeltranslation/js/jQuery.js',

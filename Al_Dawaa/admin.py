@@ -16,11 +16,11 @@ class We_AldawaaAdmin(TranslationAdmin):
     inlines = [FeatureInline , TimelineEventInline]
     list_display = ("section_title",'image_tag')
     list_filter = ('section_title',)
-    # def has_add_permission(self, request):
-    #     return False
+    def has_add_permission(self, request):
+        return False
 
-    # def has_delete_permission(self, request, obj=None):
-    #     return False    
+    def has_delete_permission(self, request, obj=None):
+        return False     
     
     class Media:
         js = (
@@ -51,11 +51,11 @@ class DepartmentInline(TranslationStackedInline):
 class DepartmentsAdmin(admin.ModelAdmin):
     inlines = [DepartmentCategoryInline , DepartmentInline]
     list_display = ('image_tag',)
-    # def has_add_permission(self, request):
-    #     return False
+    def has_add_permission(self, request):
+        return False
 
-    # def has_delete_permission(self, request, obj=None):
-    #     return False
+    def has_delete_permission(self, request, obj=None):
+        return False    
     class Media:
         js = (
             'modeltranslation/js/jQuery.js',
@@ -85,11 +85,11 @@ class Social_ResponsibilityAdmin(TranslationAdmin):
     inlines = [Card_Social_ResponsibilityInline , Details_Social_ResponsibilityInline]
     list_display = ("page_title", 'image_tag')
     list_filter = ("page_title",)
-    # def has_add_permission(self, request):
-    #     return False
+    def has_add_permission(self, request):
+        return False
 
-    # def has_delete_permission(self, request, obj=None):
-    #     return False
+    def has_delete_permission(self, request, obj=None):
+        return False    
     class Media:
         js = (
             'modeltranslation/js/jQuery.js',
@@ -113,11 +113,11 @@ class Image_Banner_ProgramInline(TranslationStackedInline):
 class ProgramAdmin(admin.ModelAdmin):
     inlines = [Image_Banner_ProgramInline]
     list_display = ('image_tag',)    
-    # def has_add_permission(self, request):
-    #     return False
+    def has_add_permission(self, request):
+        return False
 
-    # def has_delete_permission(self, request, obj=None):
-    #     return False
+    def has_delete_permission(self, request, obj=None):
+        return False    
 
     class Media:
         js = (
@@ -128,5 +128,4 @@ class ProgramAdmin(admin.ModelAdmin):
         css = {
             'screen': ('modeltranslation/css/tabbed_translation_fields.css',),
         }
-        
-        
+

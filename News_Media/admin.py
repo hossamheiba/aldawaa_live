@@ -20,11 +20,11 @@ class NewsInline(TranslationStackedInline):
 class NewsAdmin(admin.ModelAdmin):
     inlines = [NewsInline , NewsDetailsInline]
     list_display = ('image_tag' ,)
-    # def has_add_permission(self, request):
-    #     return False
+    def has_add_permission(self, request):
+        return False
 
-    # def has_delete_permission(self, request, obj=None):
-    #     return False
+    def has_delete_permission(self, request, obj=None):
+        return False    
     class Media:
         js = (
             'modeltranslation/js/jQuery.js',
@@ -53,11 +53,11 @@ class MediaInline(TranslationStackedInline):
 class MediasAdmin(admin.ModelAdmin):
     inlines = [MediaInline,MediatailsInline]
     list_display = ('image_tag',)
-    # def has_add_permission(self, request):
-    #     return False
+    def has_add_permission(self, request):
+        return False
 
-    # def has_delete_permission(self, request, obj=None):
-    #     return False
+    def has_delete_permission(self, request, obj=None):
+        return False    
     class Media:
         js = (
             'modeltranslation/js/jQuery.js',
